@@ -1,0 +1,31 @@
+{
+  "name": "@m6b9/telegram-notifier",
+  "version": "1.0.0",
+  "description": "Simple Telegram notification sender with zero dependencies",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "telegram",
+    "notification",
+    "bot",
+    "alert"
+  ],
+  "author": "Mathias Bradiceanu",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ]
+}
