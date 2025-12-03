@@ -7,7 +7,7 @@
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "npm run build",
-    "test": "node test.js"
+    "test": "ts-node test.ts"
   },
   "keywords": [
     "telegram",
@@ -21,8 +21,10 @@
     "node": ">=14.0.0"
   },
   "devDependencies": {
-    "typescript": "^5.0.0",
-    "@types/node": "^20.0.0"
+    "@types/node": "^20.19.25",
+    "dotenv": "^17.2.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.0.0"
   },
   "files": [
     "dist",
