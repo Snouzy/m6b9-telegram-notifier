@@ -8,7 +8,8 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-100%25-blue)](https://www.typescriptlang.org/)
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/6c5104c0-2466-41b1-ac86-b24f544b75a7" alt="Telegram Notifier - Send notifications from Node.js" width="800">
+  <img src="https://raw.githubusercontent.com/m6b9/telegram-notifier/main/.github/
+  assets/hero.jpeg" alt="Telegram Notifier - Send notifications from Node.js" width="800">
   <p><i>Send Telegram notifications from your Node.js app in seconds</i></p>
 </div>
 
