@@ -1,6 +1,6 @@
 {
   "name": "@m6b9/telegram-notifier",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Zero-dependency TypeScript library for sending Telegram notifications via bot API",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
