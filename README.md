@@ -7,8 +7,6 @@
 [![license](https://img.shields.io/npm/l/@m6b9/telegram-notifier)](https://github.com/m6b9/telegram-notifier/blob/main/LICENSE)
 [![TypeScript](https://img.shields.io/badge/TypeScript-100%25-blue)](https://www.typescriptlang.org/)
 
-Simple, zero-dependency TypeScript library for sending Telegram notifications via bot API.
-
 ## Table of Contents
 - [Features](#features)
 - [Installation](#installation)
