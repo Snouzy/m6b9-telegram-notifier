@@ -37,25 +37,27 @@ npm install @m6b9/telegram-notifier
 ### 1. Get your Telegram credentials
 
 **Bot Token:**
-- Talk to [@BotFather](https://t.me/BotFather) on Telegram
+- Search and open the conversation with [@BotFather](https://t.me/BotFather) on Telegram
 - Send `/newbot` to create a new bot
-- Copy the token (format: `123456789:ABCdefGHIjklMNOpqrsTUVwxyz`)
+- Copy the generated token (format: `123456789:ABCdefGHIjklMNOpqrsTUVwxyz`)
 
 **Chat ID:**
-- **For personal chat:**
-  - **Option A:** Talk to [@userinfobot](https://t.me/userinfobot) - it will reply with your User ID
-  - **Option B:** Manual method:
-    1. Search for your bot in Telegram (e.g., `@your_bot_name`) or visit `https://t.me/YOUR_BOT_USERNAME`
-    2. Click "Start" or send any message (e.g., `/start` or `hello`)
-    3. Visit `https://api.telegram.org/bot<YOUR_TOKEN>/getUpdates` in your browser
-    4. Find `"from":{"id":123456789}` in the JSON response
-- **For groups:**
+
+> **Important:** You must **always** send `/start` to your bot first, otherwise Telegram will block all messages from the bot!
+
+- **IF you want to send notification to a personal chat:**
+  1. Search for your bot in Telegram (e.g., `@your_bot_name`) or visit `https://t.me/YOUR_BOT_USERNAME`
+  2. Click "Start" or send `/start` to the bot
+  3. **Option A:** Search and talk to [@userinfobot](https://t.me/userinfobot) : it will reply with your User ID. Copy the ID.
+  4. **Option B:** Manual method:
+     - Visit `https://api.telegram.org/bot<YOUR_TOKEN>/getUpdates` in your browser
+     - Find `"from":{"id":123456789}` in the JSON response
+
+- **IF you want to send notification to a group:**
   1. Add your bot to the group
-  2. Send a message in the group
+  2. Send `/start` in the group (or any message)
   3. Visit `https://api.telegram.org/bot<YOUR_TOKEN>/getUpdates`
   4. Find `"chat":{"id":-123456789}` in the response (note: group IDs are negative)
-
-> **Important:** You must send at least one message to your bot (click "Start") before it can send you notifications. Otherwise, Telegram will block the messages.
 
 ### 2. Set environment variables
 
@@ -65,6 +67,8 @@ Create a `.env` file (see `.env.example`):
 TELEGRAM_BOT_TOKEN=123456789:ABCdefGHIjklMNOpqrsTUVwxyz
 TELEGRAM_CHAT_ID=123456789
 ```
+
+> **Note:** Environment variables are optional. You can also pass credentials directly in the function call (see [Advanced usage](#advanced-override-credentials)).
 
 ## Usage
 
