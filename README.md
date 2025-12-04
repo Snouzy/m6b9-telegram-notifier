@@ -1,6 +1,24 @@
 # Telegram Notifier
 
+> Zero-dependency TypeScript library for sending Telegram notifications via bot API
+
+[![npm version](https://img.shields.io/npm/v/@m6b9/telegram-notifier)](https://www.npmjs.com/package/@m6b9/telegram-notifier)
+[![npm downloads](https://img.shields.io/npm/dm/@m6b9/telegram-notifier)](https://www.npmjs.com/package/@m6b9/telegram-notifier)
+[![license](https://img.shields.io/npm/l/@m6b9/telegram-notifier)](https://github.com/m6b9/telegram-notifier/blob/main/LICENSE)
+[![TypeScript](https://img.shields.io/badge/TypeScript-100%25-blue)](https://www.typescriptlang.org/)
+
 Simple, zero-dependency TypeScript library for sending Telegram notifications via bot API.
+
+## Table of Contents
+- [Features](#features)
+- [Installation](#installation)
+- [Quick Setup](#quick-setup)
+- [Usage](#usage)
+- [API Reference](#api-reference)
+- [TypeScript Support](#typescript-support)
+- [Use Cases](#use-cases)
+- [Why Zero Dependencies?](#why-zero-dependencies)
+- [License](#license)
 
 ## Features
 

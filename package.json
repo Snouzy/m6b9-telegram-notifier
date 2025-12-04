@@ -1,7 +1,7 @@
 {
   "name": "@m6b9/telegram-notifier",
   "version": "1.1.0",
-  "description": "Simple Telegram notification sender with zero dependencies",
+  "description": "Zero-dependency TypeScript library for sending Telegram notifications via bot API",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -11,12 +11,31 @@
   },
   "keywords": [
     "telegram",
+    "telegram-bot",
+    "telegram-api",
     "notification",
+    "notifications",
+    "alert",
+    "alerts",
     "bot",
-    "alert"
+    "typescript",
+    "zero-dependencies",
+    "monitoring",
+    "cicd",
+    "devops",
+    "nodejs",
+    "error-reporting"
   ],
   "author": "Mathias Bradiceanu",
   "license": "MIT",
+  "homepage": "https://github.com/m6b9/telegram-notifier#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m6b9/telegram-notifier.git"
+  },
+  "bugs": {
+    "url": "https://github.com/m6b9/telegram-notifier/issues"
+  },
   "engines": {
     "node": ">=14.0.0"
   },
