@@ -31,13 +31,13 @@
   ],
   "author": "Mathias Bradiceanu",
   "license": "MIT",
-  "homepage": "https://github.com/m6b9/telegram-notifier#readme",
+  "homepage": "https://github.com/Snouzy/m6b9-telegram-notifier#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/m6b9/telegram-notifier.git"
+    "url": "git+https://github.com/Snouzy/m6b9-telegram-notifier.git"
   },
   "bugs": {
-    "url": "https://github.com/m6b9/telegram-notifier/issues"
+    "url": "https://github.com/Snouzy/m6b9-telegram-notifier/issues"
   },
   "engines": {
     "node": ">=14.0.0"
